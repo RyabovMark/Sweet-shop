@@ -30,10 +30,10 @@ const Header = (props) => {
   };
 
   const scrollTo = (to) => {
-    if (location.pathname === "/") {
+    if (location.pathname === "/Sweet-shop") {
       scroller(to);
     } else {
-      new Promise((resolve) => resolve(navigate(".."))).finally(() =>
+      new Promise((resolve) => resolve(navigate("/Sweet-shop"))).finally(() =>
         scroller(to)
       );
     }
@@ -100,16 +100,16 @@ const Header = (props) => {
                   onemorecake
                 </Typography>
                 {location.pathname !== "/cart" && (
-                  <Link to="cart">
-                    <IconButton>
+                  <IconButton disabled={cart.length === 0}>
+                    <Link to="cart">
                       <Badge badgeContent={cart.length} color="info">
                         <LocalMallOutlinedIcon
                           fontSize="large"
                           sx={{ color: "custom.black" }}
                         />
                       </Badge>
-                    </IconButton>
-                  </Link>
+                    </Link>
+                  </IconButton>
                 )}
               </Box>
             ) : (
