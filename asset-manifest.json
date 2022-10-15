@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/Sweet-shop/static/css/main.c6bf66b5.css",
-    "main.js": "/Sweet-shop/static/js/main.a8a50f2e.js",
-    "static/media/mastercard.svg": "/Sweet-shop/static/media/mastercard.a410ec60752e5d0bf0ce0e861795b089.svg",
-    "static/media/cupcake.svg": "/Sweet-shop/static/media/cupcake.7eea7d4038e6a81f5478c4992d7e2d94.svg",
-    "static/media/checklist.svg": "/Sweet-shop/static/media/checklist.cfe34b4a0b8daf1aad4ba796ee1637bb.svg",
-    "static/media/cooking.svg": "/Sweet-shop/static/media/cooking.03fcfa745750661287956711a49b7dc5.svg",
-    "static/media/deliveryTrack.svg": "/Sweet-shop/static/media/deliveryTrack.68869809e10bcedbb94918293c5b8962.svg",
+    "main.js": "/Sweet-shop/static/js/main.dc9a1ca0.js",
+    "static/media/mastercard.svg": "/Sweet-shop/static/media/mastercard.556aee10b8e4a98d28d47a2ea62f0529.svg",
+    "static/media/cupcake.svg": "/Sweet-shop/static/media/cupcake.9c2a4e34e981be7b792da517d09cecdf.svg",
+    "static/media/checklist.svg": "/Sweet-shop/static/media/checklist.3c48bf826e06e98e79fd022862e9b78c.svg",
+    "static/media/cooking.svg": "/Sweet-shop/static/media/cooking.55c9bc551ca86cdf86705d7b26ceff98.svg",
+    "static/media/deliveryTrack.svg": "/Sweet-shop/static/media/deliveryTrack.efe219fc10a867217d174a2529ba7e7f.svg",
     "static/media/vk.svg": "/Sweet-shop/static/media/vk.a766d076e4e6a1d4f2a56190a1271882.svg",
-    "static/media/instagram.svg": "/Sweet-shop/static/media/instagram.7fc9f5808e01ba79a676eb8f3db2960c.svg",
-    "static/media/visa.svg": "/Sweet-shop/static/media/visa.20a93171bca98d37dc0fa679d2d81e1f.svg",
+    "static/media/instagram.svg": "/Sweet-shop/static/media/instagram.344740224928d19ddb8447933754fc81.svg",
+    "static/media/visa.svg": "/Sweet-shop/static/media/visa.772a09f9be93e9150f02e68cc2b2cfd6.svg",
     "static/media/applepay.svg": "/Sweet-shop/static/media/applepay.0faea9f951c693afeaafa29b313445b3.svg",
-    "static/media/youtube.svg": "/Sweet-shop/static/media/youtube.6544010c924c689624a4434e5662f8cf.svg",
+    "static/media/youtube.svg": "/Sweet-shop/static/media/youtube.315626a5c7256e30792c421ad8404efe.svg",
     "index.html": "/Sweet-shop/index.html",
     "main.c6bf66b5.css.map": "/Sweet-shop/static/css/main.c6bf66b5.css.map",
-    "main.a8a50f2e.js.map": "/Sweet-shop/static/js/main.a8a50f2e.js.map"
+    "main.dc9a1ca0.js.map": "/Sweet-shop/static/js/main.dc9a1ca0.js.map"
   },
   "entrypoints": [
     "static/css/main.c6bf66b5.css",
-    "static/js/main.a8a50f2e.js"
+    "static/js/main.dc9a1ca0.js"
   ]
 }
