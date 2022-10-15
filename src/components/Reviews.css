@@ -1,0 +1,19 @@
+.show {
+    border: 1px solid #999;
+    padding: 20px;
+    width: 100%;
+    animation: fade 0.5s ease-in-out;
+}
+
+.not-show {
+    display: none;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0.1;
+    }
+    to {
+        opacity: 1;
+    }
+}

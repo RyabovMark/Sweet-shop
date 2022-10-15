@@ -21,3 +21,13 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# cake photo
+/src/assets/cake
+
+# backgroubd images
+/src/assets/Intro.jpg
+/src/assets/Question section backgroung.jpg
+
+#fonts
+/src/fonts
