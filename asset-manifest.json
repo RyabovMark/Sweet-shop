@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Sweet-shop/static/css/main.c6bf66b5.css",
-    "main.js": "/Sweet-shop/static/js/main.52e16bc9.js",
+    "main.js": "/Sweet-shop/static/js/main.4c762ebf.js",
     "static/media/mastercard.svg": "/Sweet-shop/static/media/mastercard.556aee10b8e4a98d28d47a2ea62f0529.svg",
     "static/media/cupcake.svg": "/Sweet-shop/static/media/cupcake.9c2a4e34e981be7b792da517d09cecdf.svg",
     "static/media/checklist.svg": "/Sweet-shop/static/media/checklist.3c48bf826e06e98e79fd022862e9b78c.svg",
@@ -14,10 +14,10 @@
     "static/media/youtube.svg": "/Sweet-shop/static/media/youtube.315626a5c7256e30792c421ad8404efe.svg",
     "index.html": "/Sweet-shop/index.html",
     "main.c6bf66b5.css.map": "/Sweet-shop/static/css/main.c6bf66b5.css.map",
-    "main.52e16bc9.js.map": "/Sweet-shop/static/js/main.52e16bc9.js.map"
+    "main.4c762ebf.js.map": "/Sweet-shop/static/js/main.4c762ebf.js.map"
   },
   "entrypoints": [
     "static/css/main.c6bf66b5.css",
-    "static/js/main.52e16bc9.js"
+    "static/js/main.4c762ebf.js"
   ]
 }
