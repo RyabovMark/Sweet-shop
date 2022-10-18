@@ -13,6 +13,7 @@ import {
 } from "@mui/material";
 import MenuList from "./MenuList";
 import LocalMallOutlinedIcon from "@mui/icons-material/LocalMallOutlined";
+import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import { menuList } from "../data/Data";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { useSelector } from "react-redux";
@@ -99,7 +100,7 @@ const Header = (props) => {
                 >
                   onemorecake
                 </Typography>
-                {location.pathname !== "/cart" && (
+                {location.pathname === "/Sweet-shop" ? (
                   <IconButton disabled={cart.length === 0}>
                     <Link to="cart">
                       <Badge badgeContent={cart.length} color="info">
@@ -108,6 +109,15 @@ const Header = (props) => {
                           sx={{ color: "custom.black" }}
                         />
                       </Badge>
+                    </Link>
+                  </IconButton>
+                ) : (
+                  <IconButton>
+                    <Link to="/Sweet-shop">
+                      <ArrowBackIcon
+                        fontSize="large"
+                        sx={{ color: "custom.black" }}
+                      />
                     </Link>
                   </IconButton>
                 )}
@@ -135,7 +145,7 @@ const Header = (props) => {
                         textTransform: `${
                           item.title === "onemorecake"
                             ? "uppercase"
-                            : "capitalaze"
+                            : "capitalize"
                         }`,
                         cursor: `${
                           item.title === "onemorecake" ? "" : "pointer"
@@ -156,7 +166,7 @@ const Header = (props) => {
                     justifyContent: "center",
                   }}
                 >
-                  {location.pathname !== "/cart" && (
+                  {location.pathname === "/Sweet-shop" ? (
                     <IconButton disabled={cart.length === 0}>
                       <Link to="cart">
                         <Badge badgeContent={cart.length} color="info">
@@ -165,6 +175,15 @@ const Header = (props) => {
                             sx={{ color: "custom.black" }}
                           />
                         </Badge>
+                      </Link>
+                    </IconButton>
+                  ) : (
+                    <IconButton>
+                      <Link to="/Sweet-shop">
+                        <ArrowBackIcon
+                          fontSize="large"
+                          sx={{ color: "custom.black" }}
+                        />
                       </Link>
                     </IconButton>
                   )}
